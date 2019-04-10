@@ -18,9 +18,11 @@ Array [
   </div>,
   <div
     className="controls panel"
+    data-testid="controlPanel"
   >
     <button
       className="toggle-btn"
+      data-testid="lockButton"
       disabled={true}
       onClick={[Function]}
     >
@@ -28,6 +30,7 @@ Array [
     </button>
     <button
       className="toggle-btn"
+      data-testid="openButton"
       disabled={false}
       onClick={[Function]}
     >

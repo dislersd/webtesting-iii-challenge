@@ -5,7 +5,7 @@ import Controls from '../controls/Controls';
 
 class Dashboard extends React.Component {
   state = {
-    locked: true,
+    locked: false,
     closed: false,
   };
 
